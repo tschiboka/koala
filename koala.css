@@ -91,3 +91,26 @@ body {
     width: 25%;
     z-index: 3;
 }
+
+#hair-left {
+    background-color: #A6BECF;
+    clip-path: polygon(50% 0%,0% 100%,100% 100%); 
+    height: 30%;
+    left: 30%;
+    position: absolute;   
+    width: 20%;
+    top: -8%;    
+    -webkit-clip-path: polygon(50% 0%,0% 100%,100% 100%); 
+}
+
+#hair-right {
+    background-color: #A6BECF;   
+    clip-path: polygon(50% 0%,0% 100%,100% 100%); 
+    height: 30%;
+    left: 48%;
+    position: absolute;   
+    width: 20%;
+    top: -4%;    
+    -webkit-clip-path: polygon(50% 0%,0% 100%,100% 100%); 
+}
+
