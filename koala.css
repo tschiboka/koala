@@ -31,3 +31,27 @@ body {
     width: 100%;
     z-index: 2;
 }
+
+.ear {
+    background-color: #a6becf;
+    border-radius: 50%;
+    height: 65%;    
+    position: absolute;    
+    top: 5%;
+    width: 60%;
+}
+
+.ear-left { left: -20%; }
+
+.ear-right { right: -20%; }
+
+.inner-ear {
+    background-color: #819CAF;  
+    border: #61697c solid 1px;
+    border-radius: 50%;  
+    height: 80%;
+    left: 10%;
+    position: absolute;
+    top: 10%;
+    width: 80%;
+}
