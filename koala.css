@@ -1,1 +1,16 @@
+body {
+    background-color: #282c34;    
+}
+
+.box {
+    border: #d7dae0 solid 1px;
+    border-radius: 5px;
+    display: block;
+    height: 420px;
+    margin: auto;
+    margin-top: 8%;
+    position: relative;
+    width: 600px;
+}
+
 
