@@ -1,9 +1,10 @@
-body {
-    background-color: #282c34;    
+body {    
+    background: #25A9FC;
 }
 
 .box {
-    border: #d7dae0 solid 1px;
+    background-color: #282c34;        
+    border: #d7dae0 dotted 1px;
     border-radius: 5px;
     display: block;
     height: 420px;
@@ -41,9 +42,9 @@ body {
     width: 60%;
 }
 
-.ear-left { left: -20%; }
+#ear-left { left: -20%; }
 
-.ear-right { right: -20%; }
+#ear-right { right: -20%; }
 
 .inner-ear {
     background-color: #819CAF;  
@@ -54,4 +55,28 @@ body {
     position: absolute;
     top: 10%;
     width: 80%;
+}
+
+.eye {
+    background-color: whitesmoke;
+    border-radius: 50%;
+    height: 33%;    
+    position: absolute;
+    top: 25%;    
+    width: 30%; 
+    z-index: 3;   
+}
+
+#eye-left { left: 25%; }
+
+#eye-right { right: 25%; }
+
+.pupil {
+    background: #27354A;
+    border-radius: 50%;
+    height: 30%;
+    position: absolute;
+    left: 36%;
+    top: 25%;
+    width: 28%;
 }
