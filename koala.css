@@ -13,4 +13,21 @@ body {
     width: 600px;
 }
 
+.head {
+    background-color: #A6BECF;
+    border-radius: 50%;
+    height: 67%;
+    left: 25%;
+    position: absolute;
+    top: 16.5%;
+    width: 50%;
+}
 
+.head-copy {
+    background-color: #a6becf;
+    border-radius: 50%;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+}
